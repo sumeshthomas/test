@@ -5,7 +5,7 @@ describe('User visits Hello World page', function() {
   const browser = new Browser();
 
   before(function(done) {
-    browser.visit('https://github.com/sumeshthomas/test/blob/master/test.js', done);
+    browser.visit('http://104.154.40.137:8081/HelloWorld/', done);
   });
 
   describe('submits form', function() {
